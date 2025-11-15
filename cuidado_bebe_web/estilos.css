@@ -1,0 +1,41 @@
+/* estilos.css - estilos simples para la demo */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  background: white;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+h1 {
+  margin-top: 0;
+}
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+.tabla th, .tabla td {
+  border: 1px solid #e1e5ea;
+  padding: 8px 10px;
+  text-align: left;
+}
+.tabla th {
+  background: #f0f4f8;
+}
+.error {
+  color: #b00020;
+}
+.nota {
+  margin-top: 18px;
+  background: #f8f9fb;
+  padding: 10px;
+  border-left: 4px solid #2b8aef;
+}
